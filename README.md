@@ -92,3 +92,8 @@ in the main menu. Make sure you're in a game lobby or match.
 
 **Game crashes on startup:**  
 Try a different BepInEx version, or remove the plugin DLL from the plugins folder.
+
+## !!NOTICE!!
+
+I may fine tune this, but I will not be trying to update it further.  This is known to be working as of game version 0.9.18.  It is vibe coded to hell, and I am no coder.  I simply wanted to make a fix that was functional.  If someone who actually knows what they are doing wants to pick this up and create a more elegant implementation/solution.  You have full permission to do so without needing to ask me.  I just wanted to help lay some groundwork for this to make the game work for people on Linux.
+
