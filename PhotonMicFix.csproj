@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>PhotonMicFix</AssemblyName>
+    <RootNamespace>PhotonMicFix</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GameDir>$(HOME)/.local/share/Steam/steamapps/common/Cursed Companions</GameDir>
+    <BepInExDir>$(GameDir)/BepInEx</BepInExDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx.Core"><HintPath>$(BepInExDir)/core/BepInEx.Core.dll</HintPath></Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP"><HintPath>$(BepInExDir)/core/BepInEx.Unity.IL2CPP.dll</HintPath></Reference>
+    <Reference Include="Il2CppInterop.Runtime"><HintPath>$(BepInExDir)/core/Il2CppInterop.Runtime.dll</HintPath></Reference>
+    <Reference Include="0Harmony"><HintPath>$(BepInExDir)/core/0Harmony.dll</HintPath></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(BepInExDir)/unity-libs/UnityEngine.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(BepInExDir)/unity-libs/UnityEngine.CoreModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.AudioModule"><HintPath>$(BepInExDir)/unity-libs/UnityEngine.AudioModule.dll</HintPath></Reference>
+    <Reference Include="Il2Cppmscorlib"><HintPath>$(BepInExDir)/interop/Il2Cppmscorlib.dll</HintPath></Reference>
+    <Reference Include="Il2CppSystem"><HintPath>$(BepInExDir)/interop/Il2CppSystem.dll</HintPath></Reference>
+    <Reference Include="Il2CppSystem.Core"><HintPath>$(BepInExDir)/interop/Il2CppSystem.Core.dll</HintPath></Reference>
+    <Reference Include="PhotonVoice.API"><HintPath>$(BepInExDir)/interop/PhotonVoice.API.dll</HintPath></Reference>
+    <Reference Include="PhotonVoice"><HintPath>$(BepInExDir)/interop/PhotonVoice.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>
